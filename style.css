@@ -28,7 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 0;
+    padding: 25px 0 ;
 }
 .nav-logo {
     font-weight: 600;
@@ -65,4 +65,21 @@ body {
 .nav-link:nth-child(2)::after{
     content: url(img/Vector_d.svg);
     padding-left: 8px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.home-title{
+    font-weight: 500;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.home-subtitle{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.55);
 }
