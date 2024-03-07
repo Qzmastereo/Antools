@@ -4,6 +4,12 @@
     text-decoration: none;
     font-family: "Poppins", sans-serif ;
 }
+body {
+    margin: 0;
+    padding: 0;
+    background: #1e252b;
+    font-family: "Poppins", sans-serif ;
+  }
 .container{
     max-width: 1224px;
     margin: 0 auto;
@@ -17,4 +23,46 @@
     font-family: "Poppins" ;
     font-weight: 500;
     src: url(font/Poppins-Medium.ttf);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+.nav-logo {
+    font-weight: 600;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-main {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+.nav-button{
+    border: none;
+    cursor: pointer;
+    background: #1e252b;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FDF5FF;
+    padding: 12px 28px;
+}
+.nav-button:hover{
+    background-color: #FF6E30;
+}
+.nav-link:nth-child(2)::after{
+    content: url(img/Vector_d.svg);
+    padding-left: 8px;
 }
