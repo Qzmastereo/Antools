@@ -24,6 +24,9 @@ body {
     font-weight: 500;
     src: url(font/Poppins-Medium.ttf);
 }
+ul {
+    list-style: none;
+}
 .nav {
     display: flex;
     justify-content: space-between;
@@ -192,7 +195,7 @@ body {
     border-radius: 8px;
     font-weight: 600;
     font-size: 16px;
-    padding: 12px 28px;
+    padding: 9px 35px;
     color: #FDF5FF;
 
 }
@@ -205,18 +208,20 @@ body {
 }
 .collection-card{
     border-radius: 15px;
-    flex-basis: calc((100% - (3 * 20px)) / 3);
-    margin: 10px;
+    flex-basis: calc((100% - (3 * 30px)) / 3);
+    margin: 15px;
 }
 .collection-card-footer{
     display: flex;
     justify-content: space-between;
 }
-.collection-card:nth-child(-n+3){
+.collection-grid > .collection-card:nth-child(-n+3){
 margin-top: 110px;
+margin-bottom: 70px;
 }
 .collection-card:hover{
     background-image: url('img/Rectangle.png');
+    background-repeat: no-repeat;
 }
 .like,
 .folder {
@@ -224,4 +229,85 @@ margin-top: 110px;
 }
 .like{
     padding-right: 12px;
+}
+
+.collection-button{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    background: #1e252b;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 17px 38px;
+    color: #FF6E30;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.collection-button-end{
+    display: flex;
+    justify-content: center;
+}
+.collection-button:hover{
+    background-color: #FF6E30;
+    color: #FDF5FF;
+}
+.brand {
+    border-radius: 25px;
+    margin-bottom: 150px;
+}
+.brand-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    text-align: center;
+    color: #FFFFFFCC;
+}
+.brand-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 55px;
+}
+.brand:hover{
+    background-image: url(img/brand.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-title{
+   font-weight: 500; 
+   font-size: 48px;
+   line-height: 62px;
+   color: #FFFFFFE5;
+}
+.main-subtitle{
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF8C;
+}
+.tools > .container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.tools-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.tools-grid > .collection-card{
+}
+.btn-card{
+    border: none;
+    cursor: pointer;
+    background: #1e252b;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 9px 35px;
+    color: #FDF5FF;
+}
+.btn-card:hover{
+    background-color: #FF6E30;
 }
