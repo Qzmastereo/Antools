@@ -24,6 +24,11 @@ body {
     font-weight: 500;
     src: url(font/Poppins-Medium.ttf);
 }
+@font-face{
+    font-family: "Poppins" ;
+    font-weight: 600;
+    src: url(font/Poppins-SemiBold.ttf);
+}
 ul {
     list-style: none;
 }
@@ -377,12 +382,14 @@ margin-bottom: 70px;
     line-height: 30px;
     letter-spacing: 1.5%;
     color: #FFFFFFC7;
-    width: 400px;
+    width: 430px;
+
 }
-.about-men{
-    background-image: url(img/bracets.svg);
-    background-repeat: no-repeat;
-    background-position: 1000px 110px;
+.about-text::before{
+    content: url(img/bracets.svg);
+    position: absolute;
+    left: 772px;
+    bottom: -3090px;
 }
 .pagination{
     display: flex;
