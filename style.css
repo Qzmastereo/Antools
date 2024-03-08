@@ -387,7 +387,6 @@ margin-bottom: 70px;
 }
 .men-content{
     position: relative;
-
 }
 .about-text::before{
     content: url(img/bracets.svg);
