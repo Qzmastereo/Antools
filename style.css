@@ -385,11 +385,12 @@ margin-bottom: 70px;
     width: 430px;
 
 }
+.men-content{
+    position: relative;
+}
 .about-text::before{
     content: url(img/bracets.svg);
     position: absolute;
-    left: 48rem;
-    bottom: -193rem;
 }
 .pagination{
     display: flex;
