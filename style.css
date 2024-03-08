@@ -392,7 +392,7 @@ margin-bottom: 70px;
     content: url(img/bracets.svg);
     position: absolute;
     top: -4em;
-    left: -4em;
+    left: -3em;
 }
 .pagination{
     display: flex;
