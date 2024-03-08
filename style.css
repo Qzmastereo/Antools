@@ -388,8 +388,8 @@ margin-bottom: 70px;
 .about-text::before{
     content: url(img/bracets.svg);
     position: absolute;
-    left: 54em;
-    bottom: -220em;
+    left: 48rem;
+    bottom: -193rem;
 }
 .pagination{
     display: flex;
