@@ -165,10 +165,11 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 110px;
 }
 
 .collection-card{
-    padding-bottom: 100px;
+    padding-bottom: 35px;
 }
 .collection-card-header{
     display: flex;
@@ -228,12 +229,12 @@ ul {
     margin-left: 30px;
 }
 .collection-grid > .collection-card:nth-child(-n+3){
-margin-top: 110px;
-margin-bottom: 70px;
+    margin-bottom: 70px;
 }
 .collection-card:hover{
-    background-image: url('img/Rectangle.png');
-    background-repeat: no-repeat;
+    background: rgb(103,52,15);
+    background: radial-gradient(circle at right top, rgba(103,52,15,0.9752275910364145) 0%, #28303699 17%);
+    margin-top: -20px;
 }
 .like,
 .folder {
@@ -287,9 +288,8 @@ margin-bottom: 70px;
     padding-bottom: 55px;
 }
 .brand:hover{
-    background-image: url(img/brand.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: rgb(103,52,15);
+    background: radial-gradient(circle at left top, rgba(103,52,15,0.9752275910364145) 0%, #2C353D33 12%);
 
 }
 .main-title{
@@ -364,6 +364,9 @@ margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.tools-grid > .collection-card:hover{
+    margin-top: -20px;
 }
 .about-vectoor{
     cursor: pointer;
