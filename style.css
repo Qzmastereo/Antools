@@ -360,7 +360,7 @@ ul {
     margin-right: 30px;
 }
 .tools-grid > .collection-card{
-    margin: 15px;
+    border-radius: 15px;
     flex-basis: calc((100% - 2 * 30px) / 2);
     margin: 50px 15px;
     transition: all .3s ease-out;
