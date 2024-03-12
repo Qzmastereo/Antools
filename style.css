@@ -395,17 +395,17 @@ ul {
     line-height: 38px;
     color: #FFFDFDC7;
     position: absolute;
-    left: 18em;
-    bottom: -127em;
+    top: 24rem;
+    left: 11rem;
 }
 .subtitle_men{
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 24px;
     color: #FFFDFD8C;
     position: absolute;
-    left: 30em;
-    bottom: -213em;
+    top: 425px;
+    left: 11rem;
 }
 .about-vectoor{
     cursor: pointer;
@@ -427,6 +427,7 @@ ul {
     width: 430px;
 
 }
+
 .men-content{
     position: relative;
 }
@@ -443,6 +444,9 @@ ul {
 }
 .about-men{
     margin-bottom: 250px;
+}
+.photo-men{
+    position: relative;
 }
 .page-btn{
     margin-right: 20px;
