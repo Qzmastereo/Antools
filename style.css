@@ -218,7 +218,8 @@ ul {
 .collection-card{
     border-radius: 15px;
     flex-basis: calc((100% - (3 * 30px)) / 3);
-    margin: 15px;
+    margin: 50px 15px;
+    transition: all .3s ease-out;
 }
 .collection-card-footer{
     display: flex;
@@ -232,7 +233,8 @@ ul {
 .collection-card:hover{
     background: rgb(103,52,15);
     background: radial-gradient(circle at right top, rgba(103,52,15,0.9752275910364145) 0%, #28303699 17%);
-    margin-top: -20px;
+    margin-top: 30px;
+    margin-bottom: 90px !important;
 }
 .like,
 .folder {
@@ -341,6 +343,9 @@ ul {
     padding-left: 30px;
     
 }
+.tool-content > .main-subtitle{
+    padding: 0;
+}
 .main-btn{
     border: none;
     cursor: pointer;
@@ -357,6 +362,8 @@ ul {
 .tools-grid > .collection-card{
     margin: 15px;
     flex-basis: calc((100% - 2 * 30px) / 2);
+    margin: 50px 15px;
+    transition: all .3s ease-out;
 }
 .about-men > .container{
     display: flex;
@@ -364,7 +371,8 @@ ul {
     align-items: center;
 }
 .tools-grid > .collection-card:hover{
-    margin-top: -20px;
+    margin-top: 30px;
+    margin-bottom: 90px !important;
 }
 .about-vectoor{
     cursor: pointer;
