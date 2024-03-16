@@ -55,7 +55,10 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #fff;
+    color: #FFFFFF8C;
+}
+.nav-link:hover{
+    color: #FDF5FF;
 }
 .nav-button{
     border: none;
@@ -64,11 +67,12 @@ ul {
     border-radius: 8px;
     font-weight: 600;
     font-size: 14px;
-    color: #FDF5FF;
+    color: #FFFFFF8C;
     padding: 12px 28px;
 }
 .nav-button:hover{
     background-color: #FF6E30;
+    color: #FDF5FF;
 }
 .nav-link:nth-child(2)::after{
     content: url(img/Vector_d.svg);
@@ -230,6 +234,7 @@ ul {
     flex-basis: calc((100% - (3 * 30px)) / 3);
     margin: 50px 15px;
     transition: all .3s ease-out;
+    padding-bottom: 20px;
 }
 .collection-card-footer{
     display: flex;
@@ -242,7 +247,7 @@ ul {
 .collection-card-footer div{
     height: 18px;
 }
-.collection-grid > .collection-card:nth-child(-n+3){
+.collection-grid > .collection-card{
     margin-bottom: 70px;
 }
 .collection-card:hover{
@@ -250,7 +255,6 @@ ul {
     background: radial-gradient(circle at right top, rgba(103,52,15,0.9752275910364145) 0%, #28303699 17%);
     margin-top: 30px;
     margin-bottom: 90px !important;
-    padding-bottom: 20px;
 }
 
 .like{
@@ -335,7 +339,7 @@ ul {
     margin-bottom: 200px;
 }
 .tools-grid > .collection-card:nth-child(-n+2){
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 .btn-card{
     border: none;
@@ -378,6 +382,7 @@ ul {
     flex-basis: calc((100% - 2 * 30px) / 2);
     margin: 50px 15px;
     transition: all .3s ease-out;
+    padding-bottom: 20px;
 }
 .about-men > .container{
     display: flex;
@@ -387,7 +392,6 @@ ul {
 .tools-grid > .collection-card:hover{
     margin-top: 30px;
     margin-bottom: 90px !important;
-    padding-bottom: 20px;
 }
 .title_men{
     font-weight: 500;
