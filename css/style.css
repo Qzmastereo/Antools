@@ -338,9 +338,7 @@ ul {
 .tools{
     margin-bottom: 200px;
 }
-.tools-grid > .collection-card:nth-child(-n+2){
-    padding-bottom: 50px;
-}
+
 .btn-card{
     border: none;
     cursor: pointer;
@@ -390,8 +388,8 @@ ul {
     align-items: center;
 }
 .tools-grid > .collection-card:hover{
-    margin-top: 30px;
     margin-bottom: 90px !important;
+    margin-top: 30px;
 }
 .title_men{
     font-weight: 500;
