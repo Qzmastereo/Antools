@@ -75,7 +75,7 @@ ul {
     color: #FDF5FF;
 }
 .nav-link:nth-child(2)::after{
-    content: url(img/Vector_d.svg);
+    content: url(img/vector_d.svg);
     padding-left: 8px;
 }
 .home {
@@ -433,10 +433,9 @@ ul {
 .men-content{
     position: relative;
 }
-.about-text::before{
-    content: url(img/bracets.svg);
+.about-bracets{
     position: absolute;
-    top: -4em;
+    top: -3em;
     left: -3em;
 }
 .pagination{
